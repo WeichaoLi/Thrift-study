@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B20931D19F0E83C004DF3A6 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 1B2092F519F0E83C004DF3A6 /* README */; };
+		1B20931E19F0E83C004DF3A6 /* TBinaryProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2092FA19F0E83C004DF3A6 /* TBinaryProtocol.m */; };
+		1B20931F19F0E83C004DF3A6 /* TProtocolException.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2092FD19F0E83C004DF3A6 /* TProtocolException.m */; };
+		1B20932019F0E83C004DF3A6 /* TProtocolUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20930019F0E83C004DF3A6 /* TProtocolUtil.m */; };
+		1B20932119F0E83C004DF3A6 /* TSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20930319F0E83C004DF3A6 /* TSocketServer.m */; };
+		1B20932219F0E83C004DF3A6 /* TApplicationException.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20930519F0E83C004DF3A6 /* TApplicationException.m */; };
+		1B20932319F0E83C004DF3A6 /* TException.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20930719F0E83C004DF3A6 /* TException.m */; };
+		1B20932419F0E83C004DF3A6 /* TFramedTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20930D19F0E83C004DF3A6 /* TFramedTransport.m */; };
+		1B20932519F0E83C004DF3A6 /* THTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20930F19F0E83C004DF3A6 /* THTTPClient.m */; };
+		1B20932619F0E83C004DF3A6 /* TMemoryBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20931119F0E83C004DF3A6 /* TMemoryBuffer.m */; };
+		1B20932719F0E83C004DF3A6 /* TNSFileHandleTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20931319F0E83C004DF3A6 /* TNSFileHandleTransport.m */; };
+		1B20932819F0E83C004DF3A6 /* TNSStreamTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20931519F0E83C004DF3A6 /* TNSStreamTransport.m */; };
+		1B20932919F0E83C004DF3A6 /* TSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20931719F0E83C004DF3A6 /* TSocketClient.m */; };
+		1B20932A19F0E83C004DF3A6 /* TTransportException.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20931A19F0E83C004DF3A6 /* TTransportException.m */; };
+		1B20932B19F0E83C004DF3A6 /* TSharedProcessorFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20931C19F0E83C004DF3A6 /* TSharedProcessorFactory.m */; };
+		1B20934819F0EA62004DF3A6 /* LWCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20934619F0EA62004DF3A6 /* LWCViewController.m */; };
+		1B20934919F0EA62004DF3A6 /* LWCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B20934719F0EA62004DF3A6 /* LWCViewController.xib */; };
+		1B20936619F0ED1C004DF3A6 /* idl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B20936519F0ED1C004DF3A6 /* idl.m */; };
+		1BAE6B4319F0B3E9007978BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE6B4219F0B3E9007978BD /* Foundation.framework */; };
+		1BAE6B4519F0B3E9007978BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE6B4419F0B3E9007978BD /* CoreGraphics.framework */; };
+		1BAE6B4719F0B3E9007978BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE6B4619F0B3E9007978BD /* UIKit.framework */; };
+		1BAE6B4D19F0B3E9007978BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE6B4B19F0B3E9007978BD /* InfoPlist.strings */; };
+		1BAE6B4F19F0B3E9007978BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE6B4E19F0B3E9007978BD /* main.m */; };
+		1BAE6B5319F0B3E9007978BD /* LWCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE6B5219F0B3E9007978BD /* LWCAppDelegate.m */; };
+		1BAE6B5519F0B3E9007978BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE6B5419F0B3E9007978BD /* Images.xcassets */; };
+		1BAE6B5C19F0B3E9007978BD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE6B5B19F0B3E9007978BD /* XCTest.framework */; };
+		1BAE6B5D19F0B3E9007978BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE6B4219F0B3E9007978BD /* Foundation.framework */; };
+		1BAE6B5E19F0B3E9007978BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAE6B4619F0B3E9007978BD /* UIKit.framework */; };
+		1BAE6B6619F0B3E9007978BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BAE6B6419F0B3E9007978BD /* InfoPlist.strings */; };
+		1BAE6B6819F0B3E9007978BD /* Thrift_studyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAE6B6719F0B3E9007978BD /* Thrift_studyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BAE6B5F19F0B3E9007978BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BAE6B3719F0B3E9007978BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BAE6B3E19F0B3E9007978BD;
+			remoteInfo = "Thrift study";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B2092F519F0E83C004DF3A6 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		1B2092F819F0E83C004DF3A6 /* TBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBase.h; sourceTree = "<group>"; };
+		1B2092F919F0E83C004DF3A6 /* TBinaryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBinaryProtocol.h; sourceTree = "<group>"; };
+		1B2092FA19F0E83C004DF3A6 /* TBinaryProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBinaryProtocol.m; sourceTree = "<group>"; };
+		1B2092FB19F0E83C004DF3A6 /* TProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocol.h; sourceTree = "<group>"; };
+		1B2092FC19F0E83C004DF3A6 /* TProtocolException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolException.h; sourceTree = "<group>"; };
+		1B2092FD19F0E83C004DF3A6 /* TProtocolException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolException.m; sourceTree = "<group>"; };
+		1B2092FE19F0E83C004DF3A6 /* TProtocolFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolFactory.h; sourceTree = "<group>"; };
+		1B2092FF19F0E83C004DF3A6 /* TProtocolUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProtocolUtil.h; sourceTree = "<group>"; };
+		1B20930019F0E83C004DF3A6 /* TProtocolUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TProtocolUtil.m; sourceTree = "<group>"; };
+		1B20930219F0E83C004DF3A6 /* TSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketServer.h; sourceTree = "<group>"; };
+		1B20930319F0E83C004DF3A6 /* TSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketServer.m; sourceTree = "<group>"; };
+		1B20930419F0E83C004DF3A6 /* TApplicationException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TApplicationException.h; sourceTree = "<group>"; };
+		1B20930519F0E83C004DF3A6 /* TApplicationException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TApplicationException.m; sourceTree = "<group>"; };
+		1B20930619F0E83C004DF3A6 /* TException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TException.h; sourceTree = "<group>"; };
+		1B20930719F0E83C004DF3A6 /* TException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TException.m; sourceTree = "<group>"; };
+		1B20930819F0E83C004DF3A6 /* TObjective-C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TObjective-C.h"; sourceTree = "<group>"; };
+		1B20930919F0E83C004DF3A6 /* TProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessor.h; sourceTree = "<group>"; };
+		1B20930A19F0E83C004DF3A6 /* TProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TProcessorFactory.h; sourceTree = "<group>"; };
+		1B20930C19F0E83C004DF3A6 /* TFramedTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFramedTransport.h; sourceTree = "<group>"; };
+		1B20930D19F0E83C004DF3A6 /* TFramedTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFramedTransport.m; sourceTree = "<group>"; };
+		1B20930E19F0E83C004DF3A6 /* THTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THTTPClient.h; sourceTree = "<group>"; };
+		1B20930F19F0E83C004DF3A6 /* THTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THTTPClient.m; sourceTree = "<group>"; };
+		1B20931019F0E83C004DF3A6 /* TMemoryBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMemoryBuffer.h; sourceTree = "<group>"; };
+		1B20931119F0E83C004DF3A6 /* TMemoryBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMemoryBuffer.m; sourceTree = "<group>"; };
+		1B20931219F0E83C004DF3A6 /* TNSFileHandleTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSFileHandleTransport.h; sourceTree = "<group>"; };
+		1B20931319F0E83C004DF3A6 /* TNSFileHandleTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSFileHandleTransport.m; sourceTree = "<group>"; };
+		1B20931419F0E83C004DF3A6 /* TNSStreamTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSStreamTransport.h; sourceTree = "<group>"; };
+		1B20931519F0E83C004DF3A6 /* TNSStreamTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSStreamTransport.m; sourceTree = "<group>"; };
+		1B20931619F0E83C004DF3A6 /* TSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSocketClient.h; sourceTree = "<group>"; };
+		1B20931719F0E83C004DF3A6 /* TSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSocketClient.m; sourceTree = "<group>"; };
+		1B20931819F0E83C004DF3A6 /* TTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransport.h; sourceTree = "<group>"; };
+		1B20931919F0E83C004DF3A6 /* TTransportException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTransportException.h; sourceTree = "<group>"; };
+		1B20931A19F0E83C004DF3A6 /* TTransportException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTransportException.m; sourceTree = "<group>"; };
+		1B20931B19F0E83C004DF3A6 /* TSharedProcessorFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSharedProcessorFactory.h; sourceTree = "<group>"; };
+		1B20931C19F0E83C004DF3A6 /* TSharedProcessorFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSharedProcessorFactory.m; sourceTree = "<group>"; };
+		1B20934519F0EA62004DF3A6 /* LWCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWCViewController.h; sourceTree = "<group>"; };
+		1B20934619F0EA62004DF3A6 /* LWCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWCViewController.m; sourceTree = "<group>"; };
+		1B20934719F0EA62004DF3A6 /* LWCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LWCViewController.xib; sourceTree = "<group>"; };
+		1B20936419F0ED1C004DF3A6 /* idl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idl.h; sourceTree = "<group>"; };
+		1B20936519F0ED1C004DF3A6 /* idl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = idl.m; sourceTree = "<group>"; };
+		1BAE6B3F19F0B3E9007978BD /* Thrift study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thrift study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAE6B4219F0B3E9007978BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BAE6B4419F0B3E9007978BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1BAE6B4619F0B3E9007978BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1BAE6B4A19F0B3E9007978BD /* Thrift study-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thrift study-Info.plist"; sourceTree = "<group>"; };
+		1BAE6B4C19F0B3E9007978BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BAE6B4E19F0B3E9007978BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BAE6B5019F0B3E9007978BD /* Thrift study-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thrift study-Prefix.pch"; sourceTree = "<group>"; };
+		1BAE6B5119F0B3E9007978BD /* LWCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWCAppDelegate.h; sourceTree = "<group>"; };
+		1BAE6B5219F0B3E9007978BD /* LWCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWCAppDelegate.m; sourceTree = "<group>"; };
+		1BAE6B5419F0B3E9007978BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1BAE6B5A19F0B3E9007978BD /* Thrift studyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thrift studyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BAE6B5B19F0B3E9007978BD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1BAE6B6319F0B3E9007978BD /* Thrift studyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thrift studyTests-Info.plist"; sourceTree = "<group>"; };
+		1BAE6B6519F0B3E9007978BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BAE6B6719F0B3E9007978BD /* Thrift_studyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thrift_studyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BAE6B3C19F0B3E9007978BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAE6B4519F0B3E9007978BD /* CoreGraphics.framework in Frameworks */,
+				1BAE6B4719F0B3E9007978BD /* UIKit.framework in Frameworks */,
+				1BAE6B4319F0B3E9007978BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAE6B5719F0B3E9007978BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAE6B5C19F0B3E9007978BD /* XCTest.framework in Frameworks */,
+				1BAE6B5E19F0B3E9007978BD /* UIKit.framework in Frameworks */,
+				1BAE6B5D19F0B3E9007978BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2092F319F0E83C004DF3A6 /* thrift */ = {
+			isa = PBXGroup;
+			children = (
+				1B2092F419F0E83C004DF3A6 /* cocoa */,
+			);
+			path = thrift;
+			sourceTree = "<group>";
+		};
+		1B2092F419F0E83C004DF3A6 /* cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				1B2092F519F0E83C004DF3A6 /* README */,
+				1B2092F619F0E83C004DF3A6 /* src */,
+			);
+			path = cocoa;
+			sourceTree = "<group>";
+		};
+		1B2092F619F0E83C004DF3A6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1B2092F719F0E83C004DF3A6 /* protocol */,
+				1B20930119F0E83C004DF3A6 /* server */,
+				1B20930419F0E83C004DF3A6 /* TApplicationException.h */,
+				1B20930519F0E83C004DF3A6 /* TApplicationException.m */,
+				1B20930619F0E83C004DF3A6 /* TException.h */,
+				1B20930719F0E83C004DF3A6 /* TException.m */,
+				1B20930819F0E83C004DF3A6 /* TObjective-C.h */,
+				1B20930919F0E83C004DF3A6 /* TProcessor.h */,
+				1B20930A19F0E83C004DF3A6 /* TProcessorFactory.h */,
+				1B20930B19F0E83C004DF3A6 /* transport */,
+				1B20931B19F0E83C004DF3A6 /* TSharedProcessorFactory.h */,
+				1B20931C19F0E83C004DF3A6 /* TSharedProcessorFactory.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		1B2092F719F0E83C004DF3A6 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1B2092F819F0E83C004DF3A6 /* TBase.h */,
+				1B2092F919F0E83C004DF3A6 /* TBinaryProtocol.h */,
+				1B2092FA19F0E83C004DF3A6 /* TBinaryProtocol.m */,
+				1B2092FB19F0E83C004DF3A6 /* TProtocol.h */,
+				1B2092FC19F0E83C004DF3A6 /* TProtocolException.h */,
+				1B2092FD19F0E83C004DF3A6 /* TProtocolException.m */,
+				1B2092FE19F0E83C004DF3A6 /* TProtocolFactory.h */,
+				1B2092FF19F0E83C004DF3A6 /* TProtocolUtil.h */,
+				1B20930019F0E83C004DF3A6 /* TProtocolUtil.m */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		1B20930119F0E83C004DF3A6 /* server */ = {
+			isa = PBXGroup;
+			children = (
+				1B20930219F0E83C004DF3A6 /* TSocketServer.h */,
+				1B20930319F0E83C004DF3A6 /* TSocketServer.m */,
+			);
+			path = server;
+			sourceTree = "<group>";
+		};
+		1B20930B19F0E83C004DF3A6 /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				1B20930C19F0E83C004DF3A6 /* TFramedTransport.h */,
+				1B20930D19F0E83C004DF3A6 /* TFramedTransport.m */,
+				1B20930E19F0E83C004DF3A6 /* THTTPClient.h */,
+				1B20930F19F0E83C004DF3A6 /* THTTPClient.m */,
+				1B20931019F0E83C004DF3A6 /* TMemoryBuffer.h */,
+				1B20931119F0E83C004DF3A6 /* TMemoryBuffer.m */,
+				1B20931219F0E83C004DF3A6 /* TNSFileHandleTransport.h */,
+				1B20931319F0E83C004DF3A6 /* TNSFileHandleTransport.m */,
+				1B20931419F0E83C004DF3A6 /* TNSStreamTransport.h */,
+				1B20931519F0E83C004DF3A6 /* TNSStreamTransport.m */,
+				1B20931619F0E83C004DF3A6 /* TSocketClient.h */,
+				1B20931719F0E83C004DF3A6 /* TSocketClient.m */,
+				1B20931819F0E83C004DF3A6 /* TTransport.h */,
+				1B20931919F0E83C004DF3A6 /* TTransportException.h */,
+				1B20931A19F0E83C004DF3A6 /* TTransportException.m */,
+			);
+			path = transport;
+			sourceTree = "<group>";
+		};
+		1B20936319F0ED1C004DF3A6 /* gen-cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				1B20936419F0ED1C004DF3A6 /* idl.h */,
+				1B20936519F0ED1C004DF3A6 /* idl.m */,
+			);
+			path = "gen-cocoa";
+			sourceTree = "<group>";
+		};
+		1BAE6B3619F0B3E9007978BD = {
+			isa = PBXGroup;
+			children = (
+				1BAE6B4819F0B3E9007978BD /* Thrift study */,
+				1BAE6B6119F0B3E9007978BD /* Thrift studyTests */,
+				1BAE6B4119F0B3E9007978BD /* Frameworks */,
+				1BAE6B4019F0B3E9007978BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BAE6B4019F0B3E9007978BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE6B3F19F0B3E9007978BD /* Thrift study.app */,
+				1BAE6B5A19F0B3E9007978BD /* Thrift studyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BAE6B4119F0B3E9007978BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE6B4219F0B3E9007978BD /* Foundation.framework */,
+				1BAE6B4419F0B3E9007978BD /* CoreGraphics.framework */,
+				1BAE6B4619F0B3E9007978BD /* UIKit.framework */,
+				1BAE6B5B19F0B3E9007978BD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BAE6B4819F0B3E9007978BD /* Thrift study */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE6B5119F0B3E9007978BD /* LWCAppDelegate.h */,
+				1BAE6B5219F0B3E9007978BD /* LWCAppDelegate.m */,
+				1B20934519F0EA62004DF3A6 /* LWCViewController.h */,
+				1B20934619F0EA62004DF3A6 /* LWCViewController.m */,
+				1B20934719F0EA62004DF3A6 /* LWCViewController.xib */,
+				1BAE6B5419F0B3E9007978BD /* Images.xcassets */,
+				1B20936319F0ED1C004DF3A6 /* gen-cocoa */,
+				1B2092F319F0E83C004DF3A6 /* thrift */,
+				1BAE6B4919F0B3E9007978BD /* Supporting Files */,
+			);
+			path = "Thrift study";
+			sourceTree = "<group>";
+		};
+		1BAE6B4919F0B3E9007978BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE6B4A19F0B3E9007978BD /* Thrift study-Info.plist */,
+				1BAE6B4B19F0B3E9007978BD /* InfoPlist.strings */,
+				1BAE6B4E19F0B3E9007978BD /* main.m */,
+				1BAE6B5019F0B3E9007978BD /* Thrift study-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BAE6B6119F0B3E9007978BD /* Thrift studyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE6B6719F0B3E9007978BD /* Thrift_studyTests.m */,
+				1BAE6B6219F0B3E9007978BD /* Supporting Files */,
+			);
+			path = "Thrift studyTests";
+			sourceTree = "<group>";
+		};
+		1BAE6B6219F0B3E9007978BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BAE6B6319F0B3E9007978BD /* Thrift studyTests-Info.plist */,
+				1BAE6B6419F0B3E9007978BD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BAE6B3E19F0B3E9007978BD /* Thrift study */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BAE6B6B19F0B3E9007978BD /* Build configuration list for PBXNativeTarget "Thrift study" */;
+			buildPhases = (
+				1BAE6B3B19F0B3E9007978BD /* Sources */,
+				1BAE6B3C19F0B3E9007978BD /* Frameworks */,
+				1BAE6B3D19F0B3E9007978BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thrift study";
+			productName = "Thrift study";
+			productReference = 1BAE6B3F19F0B3E9007978BD /* Thrift study.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BAE6B5919F0B3E9007978BD /* Thrift studyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BAE6B6E19F0B3E9007978BD /* Build configuration list for PBXNativeTarget "Thrift studyTests" */;
+			buildPhases = (
+				1BAE6B5619F0B3E9007978BD /* Sources */,
+				1BAE6B5719F0B3E9007978BD /* Frameworks */,
+				1BAE6B5819F0B3E9007978BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BAE6B6019F0B3E9007978BD /* PBXTargetDependency */,
+			);
+			name = "Thrift studyTests";
+			productName = "Thrift studyTests";
+			productReference = 1BAE6B5A19F0B3E9007978BD /* Thrift studyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BAE6B3719F0B3E9007978BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LWC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LWC;
+				TargetAttributes = {
+					1BAE6B5919F0B3E9007978BD = {
+						TestTargetID = 1BAE6B3E19F0B3E9007978BD;
+					};
+				};
+			};
+			buildConfigurationList = 1BAE6B3A19F0B3E9007978BD /* Build configuration list for PBXProject "Thrift study" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BAE6B3619F0B3E9007978BD;
+			productRefGroup = 1BAE6B4019F0B3E9007978BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BAE6B3E19F0B3E9007978BD /* Thrift study */,
+				1BAE6B5919F0B3E9007978BD /* Thrift studyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BAE6B3D19F0B3E9007978BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B20931D19F0E83C004DF3A6 /* README in Resources */,
+				1BAE6B4D19F0B3E9007978BD /* InfoPlist.strings in Resources */,
+				1BAE6B5519F0B3E9007978BD /* Images.xcassets in Resources */,
+				1B20934919F0EA62004DF3A6 /* LWCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAE6B5819F0B3E9007978BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAE6B6619F0B3E9007978BD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BAE6B3B19F0B3E9007978BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B20932219F0E83C004DF3A6 /* TApplicationException.m in Sources */,
+				1B20932519F0E83C004DF3A6 /* THTTPClient.m in Sources */,
+				1B20932019F0E83C004DF3A6 /* TProtocolUtil.m in Sources */,
+				1B20936619F0ED1C004DF3A6 /* idl.m in Sources */,
+				1B20934819F0EA62004DF3A6 /* LWCViewController.m in Sources */,
+				1B20932619F0E83C004DF3A6 /* TMemoryBuffer.m in Sources */,
+				1B20932319F0E83C004DF3A6 /* TException.m in Sources */,
+				1B20931F19F0E83C004DF3A6 /* TProtocolException.m in Sources */,
+				1B20932119F0E83C004DF3A6 /* TSocketServer.m in Sources */,
+				1B20932B19F0E83C004DF3A6 /* TSharedProcessorFactory.m in Sources */,
+				1B20932819F0E83C004DF3A6 /* TNSStreamTransport.m in Sources */,
+				1BAE6B4F19F0B3E9007978BD /* main.m in Sources */,
+				1BAE6B5319F0B3E9007978BD /* LWCAppDelegate.m in Sources */,
+				1B20932719F0E83C004DF3A6 /* TNSFileHandleTransport.m in Sources */,
+				1B20932419F0E83C004DF3A6 /* TFramedTransport.m in Sources */,
+				1B20932919F0E83C004DF3A6 /* TSocketClient.m in Sources */,
+				1B20931E19F0E83C004DF3A6 /* TBinaryProtocol.m in Sources */,
+				1B20932A19F0E83C004DF3A6 /* TTransportException.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BAE6B5619F0B3E9007978BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BAE6B6819F0B3E9007978BD /* Thrift_studyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BAE6B6019F0B3E9007978BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BAE6B3E19F0B3E9007978BD /* Thrift study */;
+			targetProxy = 1BAE6B5F19F0B3E9007978BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BAE6B4B19F0B3E9007978BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BAE6B4C19F0B3E9007978BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BAE6B6419F0B3E9007978BD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BAE6B6519F0B3E9007978BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BAE6B6919F0B3E9007978BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BAE6B6A19F0B3E9007978BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BAE6B6C19F0B3E9007978BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thrift study/Thrift study-Prefix.pch";
+				INFOPLIST_FILE = "Thrift study/Thrift study-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1BAE6B6D19F0B3E9007978BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thrift study/Thrift study-Prefix.pch";
+				INFOPLIST_FILE = "Thrift study/Thrift study-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1BAE6B6F19F0B3E9007978BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Thrift study.app/Thrift study";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thrift study/Thrift study-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Thrift studyTests/Thrift studyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1BAE6B7019F0B3E9007978BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Thrift study.app/Thrift study";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thrift study/Thrift study-Prefix.pch";
+				INFOPLIST_FILE = "Thrift studyTests/Thrift studyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BAE6B3A19F0B3E9007978BD /* Build configuration list for PBXProject "Thrift study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAE6B6919F0B3E9007978BD /* Debug */,
+				1BAE6B6A19F0B3E9007978BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BAE6B6B19F0B3E9007978BD /* Build configuration list for PBXNativeTarget "Thrift study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAE6B6C19F0B3E9007978BD /* Debug */,
+				1BAE6B6D19F0B3E9007978BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BAE6B6E19F0B3E9007978BD /* Build configuration list for PBXNativeTarget "Thrift studyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BAE6B6F19F0B3E9007978BD /* Debug */,
+				1BAE6B7019F0B3E9007978BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BAE6B3719F0B3E9007978BD /* Project object */;
+}
